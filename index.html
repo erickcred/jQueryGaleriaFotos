@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.foofleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swp">
+</head>
+<body>
+    <header>
+        <h1>Galeria de fotos</h1>
+        <button type="button" id="abrir-form">Nova imagem +</button>
+    </header>
+
+    <form id="form-imagem" action="" method="post">
+        <h2>Inserir nova imagem</h2>
+        <input type="url" name="imagem" id="imagem" placeholder="URL da imagem"required>
+        <button type="submit">Adicionar</button>
+        <button type="reset">Cancelar</button>
+    </form>
+
+    <ul>
+        <li>
+            <img src="./assets/image/foto1.jpg" alt="Pintura de um gato">
+            <div class="overlay-imagem-link">
+                <a href="./assets/image/foto1.jpg" target="_blank" title="Ver imagem em tamanho real">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="./assets/image/foto2.jpg" alt="Pintura de um gato">
+            <div class="overlay-imagem-link">
+                <a href="./assets/image/foto2.jpg" target="_blank" title="Ver imagem em tamanho real">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="./assets/image/foto3.jpg" alt="Pintura de um gato">
+            <div class="overlay-imagem-link">
+                <a href="./assets/image/foto3.jpg" target="_blank" title="Ver imagem em tamanho real">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="./assets/image/foto4.jpg" alt="Pintura de um gato">
+            <div class="overlay-imagem-link">
+                <a href="./assets/image/foto4.jpg" target="_blank" title="Ver imagem em tamanho real">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="./assets/image/foto5.jpg" alt="Pintura de um gato">
+            <div class="overlay-imagem-link">
+                <a href="./assets/image/foto5.jpg" target="_blank" title="Ver imagem em tamanho real">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+    </ul>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
